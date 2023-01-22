@@ -1,0 +1,15 @@
+package Dao;
+
+import Exception.GpmException;
+import JavaBean.Employee;
+import JavaBean.Gpm;
+
+public interface GpmDao {
+		
+	    public Gpm loginGPM(String username, String password)throws GpmException;
+	    
+		public String registerEmployee(Employee employee);
+	
+
+	}
+

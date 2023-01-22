@@ -1,0 +1,10 @@
+package Bdologin;
+
+import JavaBean.Bdo;
+
+public class bdologin {
+	public static void main(String[] args) {
+		
+		
+	}
+}

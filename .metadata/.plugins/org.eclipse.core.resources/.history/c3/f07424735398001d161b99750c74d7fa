@@ -1,0 +1,13 @@
+package Bdologin;
+
+import JavaBean.Bdo;
+
+public class bdologin {
+	public static void main(String[] args) {
+		Bdo b1 = new Bdo();
+		b1.setEmail("rohit@gmail.com");
+		b1.setPassword(1234);
+		
+		
+	}
+}

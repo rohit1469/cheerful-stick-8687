@@ -1,0 +1,17 @@
+package Bdodao;
+
+import java.util.Scanner;
+
+public class BDODaoImpl implements BDODao {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	@Override
+	public void createProject(String projectName) {
+		System.out.println("Enter Your Project Name");
+		String str = sc.nextLine();
+		
+		projectName = str;
+	}
+	
+}

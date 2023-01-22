@@ -1,0 +1,12 @@
+package Exception;
+
+public class extends Exception{
+	
+public BDOException() {
+		
+	}
+	
+	public BDOException(String message) {
+		super(message);
+	}
+}
